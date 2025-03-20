@@ -10,7 +10,7 @@ TWITCH_STREAMS_URL = "https://api.twitch.tv/helix/streams"
 class TwitchNotifier(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.streamers = {"mrsalt56": False}  # Initialize as a dictionary
+        self.streamers = {"mrsalt56": False, "alexplaysyt2": False, "t0tal_toxivity": False}  # Initialize as a dictionary
         self.access_token = "p7s10fkp9gchahw5npin4k9eiv3nrx"  # Use the provided OAuth token
         self.check_twitch.start()  # Start the task after defining it
 
