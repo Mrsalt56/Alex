@@ -1,0 +1,42 @@
+{
+    "users": {
+        "706346550078603350": {
+            "username": "mr.salt56",
+            "registered_at": "2025-03-15 21:21:04.291330",
+            "last_claimed_daily": "2025-03-15",
+            "last_claimed_weekly": "",
+            "bandit_bucks": 203025142,
+            "inventory": [
+                "Food",
+                "Dragon"
+            ],
+            "stocks": {
+                "TechCorp": 50
+            },
+            "real_estate": [
+                "Apartment"
+            ]
+        },
+        "914388129132195841": {
+            "username": "bxeng",
+            "registered_at": "2025-03-15 21:21:38.310619",
+            "last_claimed_daily": "2025-03-15",
+            "last_claimed_weekly": "",
+            "bandit_bucks": 1189900,
+            "inventory": [
+                "Food"
+            ]
+        },
+        "1116857256366067853": {
+            "username": "mrpepper56",
+            "registered_at": "2025-03-16 01:14:14.262487",
+            "last_claimed_daily": "",
+            "last_claimed_weekly": "",
+            "bandit_bucks": 18154,
+            "inventory": [
+                "Toys",
+                "Toys"
+            ]
+        }
+    }
+}
