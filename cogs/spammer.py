@@ -17,7 +17,7 @@ class Spammer(commands.Cog):
         message: str = "Hello!"
     ):
         vip_role_name = "🏆| V.I.P"
-        allowed_user_ids = {1028724015969341520, 706346550078603350}
+        allowed_user_ids = {1028724015969341520,1172317753378615427}
 
         # Role check
         if vip_role_name not in [role.name for role in interaction.user.roles]:
@@ -29,7 +29,7 @@ class Spammer(commands.Cog):
             await interaction.response.send_message("🚫 You can only spam the chosen ones.", ephemeral=True)
             return
 
-        if times > 1000:
+        if times > 10000:
             await interaction.response.send_message("🚫 Max spam limit is 1k messages.", ephemeral=True)
             return
 
