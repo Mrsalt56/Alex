@@ -17,7 +17,7 @@ class Spammer(commands.Cog):
         message: str = "Hello!"
     ):
         vip_role_name = "🏆| V.I.P"
-        allowed_user_ids = {1028724015969341520,1172317753378615427}
+        allowed_user_ids = {1028724015969341520,1172317753378615427,1278113301989036104}
 
         # Role check
         if vip_role_name not in [role.name for role in interaction.user.roles]:
